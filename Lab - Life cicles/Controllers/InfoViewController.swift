@@ -59,12 +59,6 @@ class InfoViewController: UIViewController {
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         
-//        // Detect orientation
-//        animateHideButton(UIDevice.current.orientation.isLandscape) {
-//            // Hide/show button
-//            self.maximizeButton.isHidden = UIDevice.current.orientation.isLandscape
-//        }
-        
         // Set default settings
         bottomController?.tabBar.isHidden = false
         isMaximize = false
